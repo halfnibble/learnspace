@@ -11,7 +11,7 @@ int main() {
 	cout << "What is your name? " << flush;
 	getline(cin, yourName);
 
-	cout << "What year were you born? ";
+	cout << "In what year were you born? ";
 	cin >> birthYear;
 
 	cout << "Your name is " << yourName
