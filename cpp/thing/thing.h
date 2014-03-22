@@ -6,8 +6,8 @@ class Thing {
 		void set(int num, char c);
 		void increment();
 		void show();
-		int returnNumber();
-		char returnCharacter();
+		int getNumber();
+		char getCharacter();
 	private:
 		int m_Number;
 		char m_Character;

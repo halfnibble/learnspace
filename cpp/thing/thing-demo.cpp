@@ -17,5 +17,9 @@ int main() {
 	display(t1, 3);
 	// cout << i << endl;
 	t2.show();
+
+	// Example 1.b
+	cout << "\nt1's number: " << t1.getNumber() << endl;
+	cout << "\nt1's character: " << t2.getCharacter() << endl;
 	return 0;
 }

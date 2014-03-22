@@ -15,3 +15,11 @@ void Thing::show() {
 	QTextStream cout(stdout);
 	cout << m_Number << '\t' << m_Character << endl;
 }
+
+int Thing::getNumber() {
+	return m_Number;
+}
+
+char Thing::getCharacter() {
+	return m_Character;
+}
