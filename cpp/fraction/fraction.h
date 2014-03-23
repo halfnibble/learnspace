@@ -3,5 +3,8 @@
 
 class Fraction {
 public:
-	
+	void set(int n, int d);
+	QString toString();
+	double toDouble();
+	Fraction add(..?)
 }
