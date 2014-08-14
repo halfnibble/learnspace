@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/qtCreator.dir/main.cpp.o  -o qtCreator -rdynamic 
