@@ -1,7 +1,7 @@
 // strgback.cpp -- a function that returns a pointer to char
 #include <iostream>
 
-char* buildstr(char c, int n);			// prototype
+char* buildstr(char c, int n);	// prototype
 
 int main()
 {
@@ -34,6 +34,6 @@ char* buildstr(char c, int n)
 	char* pstr = new char[n + 1];
 	pstr[n] = '\0';			// terminate string
 	while (n-- > 0)
-		pstr[n] = c;			// fill rest of string
+		pstr[n] = c;		// fill rest of string
 	return pstr;
 }

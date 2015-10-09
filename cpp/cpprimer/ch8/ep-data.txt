@@ -1,0 +1,7 @@
+Focal length of objective: 3 mm
+  f eyepiece  magnification
+         1.0              3
+         1.0              3
+         2.0              2
+         4.0              1
+         5.0              1
